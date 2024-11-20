@@ -79,7 +79,6 @@ class MusicBloc extends Bloc<MusicEvent, MusicState> {
   // Event handler for play/pause.
   void _onPlayPause(PlayPauseEvent event, Emitter<MusicState> emit) {
     // TODO: Implement play/pause state toggling.
-    // Hint: Use emit(state.copyWith(isPlaying: !state.isPlaying));
   }
 
   // Event handler for next song.
